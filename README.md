@@ -3,6 +3,9 @@ We need to make some changes to the way we do webdev labs. The new CDE environme
 
 For instance, in the [JS-CL-Classes](https://github.com/PEPLabs/JS-CL-CLASSES) lab there are two tests. We added 500+ lines of extra code to the file, but the tests were unchanged. We anticipate this should be the case for most if not all labs.
 
+## Progress:
+https://revature0-my.sharepoint.com/:x:/g/personal/kyle_plummer_revature_com/ESXySvOymThAkAitC0Hxw5oBGqkcYOFQPkqtH0lt7U8DzQ?e=dCZ0n0
+
 ## Repos
 We will make these changes in branches for each lab repo. Prepend the branch name with "CDEV2" so we can easily find it. In the next few days we will have to merge and test the labs. If we need to do a full end-to-end test on a lab we can create a repo for it, add it as an activity, and test it that way. If there's a way to pick a branch in revpro that would be even better.
 
