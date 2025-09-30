@@ -4,7 +4,9 @@ We need to make some changes to the way we do webdev labs. The new CDE environme
 For instance, in the [JS-CL-Classes](https://github.com/PEPLabs/JS-CL-CLASSES) lab there are two tests. We added 500+ lines of extra code to the file, but the tests were unchanged. We anticipate this should be the case for most if not all labs.
 
 ## Repos
-We should probably put the new tests into their own new repositories. We may want to prepend the repo name with something like `V2` to indicate it's one of the new upgraded ones. For instance: `V2-JS-CL-HelloWorld`. The repos need to be public and need to be marked as a tempalte repo for forking by RevPro.
+We will make these changes in branches for each lab repo. Prepend the branch name with "CDEV2" so we can easily find it. In the next few days we will have to merge and test the labs. If we need to do a full end-to-end test on a lab we can create a repo for it, add it as an activity, and test it that way. If there's a way to pick a branch in revpro that would be even better.
+
+~~We should probably put the new tests into their own new repositories. We may want to prepend the repo name with something like `V2` to indicate it's one of the new upgraded ones. For instance: `V2-JS-CL-HelloWorld`. The repos need to be public and need to be marked as a tempalte repo for forking by RevPro.~~
 
 ## AI Tools
 We suggest using AI tools to make this quicker. Take a look at the changes below, but we should be able to have an AI make the changes we need by providing it the test file to edit, and the infrustructure to add in. I did this with [claude](https://claude.ai/) and it worked very well. Just watch out for it to do things like upgrade to Junit 5, the labs are currently using Junit 4 so we should stick with that for now. I copy/pasted into claude the [JS-CL-Classes](https://github.com/PEPLabs/JS-CL-CLASSES) test class as well as the [prototype test file](https://github.com/PEPLabs/Selenium-Labs-Upgrade/blob/main/SeleniumTest.java) and gave it the following prompt:
